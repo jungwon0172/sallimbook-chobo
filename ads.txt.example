@@ -1,0 +1,4 @@
+# 실제 배포 시 Google AdSense 계정 승인 후 발급되는 퍼블리셔 ID로 아래 내용을 교체하여
+# 사이트 루트(/ads.txt)에 반드시 배치해야 합니다.
+# 예시 형식:
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
