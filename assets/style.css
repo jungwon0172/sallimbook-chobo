@@ -118,6 +118,18 @@ nav.top-nav a:hover{border-color:#5A7C82;background:rgba(255,255,255,.05);}
 .card.c-kitchen{border-left-color:#C97A3D;}
 .card.c-routine{border-left-color:#8A6BAE;}
 .card.c-mistakes{border-left-color:#B5482E;}
+.card.c-tips{border-left-color:#E3AC3D;}
+
+/* ── icons ── */
+.cat-icon{display:inline-flex;align-items:center;justify-content:center;
+  width:64px;height:64px;background:var(--card);border:1px solid var(--line);
+  border-radius:50%;margin-bottom:16px;}
+.cat-icon svg{width:36px;height:36px;}
+article.doc .doc-head .cat-icon{width:52px;height:52px;margin-bottom:12px;}
+article.doc .doc-head .cat-icon svg{width:30px;height:30px;}
+
+/* ── learn-more links ── */
+.learn-more a{color:var(--soap-blue-deep);text-decoration:underline;display:inline-block;margin:4px 0;}
 
 /* ── section titles ── */
 .section-title{
