@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sallimbook-example.com/sitemap.xml
+Sitemap: https://sallimbook-chobo.vercel.app/sitemap.xml

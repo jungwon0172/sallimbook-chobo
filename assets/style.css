@@ -198,3 +198,23 @@ footer.site-footer .bottom{
   .hero{padding:32px 0 24px;}
   footer.site-footer .cols{gap:28px;}
 }
+
+/* ── icons ── */
+.card.c-tips{border-left-color:#E3AC3D;}
+.cat-icon{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;background:var(--card);border:1px solid var(--line);border-radius:50%;margin-bottom:16px;}
+.cat-icon svg{width:36px;height:36px;}
+article.doc .doc-head .cat-icon{width:52px;height:52px;margin-bottom:12px;}
+article.doc .doc-head .cat-icon svg{width:30px;height:30px;}
+.learn-more a{color:var(--soap-blue-deep);text-decoration:underline;display:inline-block;margin:4px 0;}
+
+/* ── comic ── */
+.comic{margin:6px 0 30px;padding:16px;background:var(--paper-dark);border:1px solid var(--line);border-radius:var(--radius);}
+.comic-label{font-size:11px;color:var(--ink-soft);letter-spacing:.06em;margin-bottom:12px;}
+.comic-row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+.pn{margin:0;}
+.pn svg{width:100%;height:auto;display:block;}
+.pn figcaption{font-size:13px;line-height:1.5;margin-top:8px;color:var(--ink);font-weight:500;}
+@media (max-width:640px){.comic-row{grid-template-columns:1fr;}.pn{max-width:340px;margin:0 auto;}}
+
+/* ad: placed low, no label clutter */
+.ad-slot{margin:56px 0 24px;min-height:100px;font-size:0;border:0;background:transparent;}
